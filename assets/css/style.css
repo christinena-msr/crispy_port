@@ -1,0 +1,91 @@
+html {
+    background: url("../assets/images/sakura.png");
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainHeader {
+    background: #ffffff;
+    height: 80px;
+    border-bottom-width: 30px;
+    border-color: #cccccc;
+}
+
+.headerBox {
+    margin-left: 10%;
+    height: fit-content;
+    width: fit-content;
+    text-align: inherit;
+    background-color:#4aaaa5;
+    padding-right: 3%;
+    padding-left: 3%;
+    float: left;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-bottom: 5%;
+    border-bottom: 2px solid #cccccc;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.linkToPage {
+    margin-right: 10%;
+    float: right;
+    padding-top: 1.5%;
+}
+
+li {
+    display: inline;
+    color: #777777;
+}
+
+img {
+    max-width: 50%;
+    margin-right: 2%;
+    display: block;
+}
+
+.wrapper {
+    margin: 10%;
+    margin-top: 3%;
+    border: 1px solid #cccccc;
+    padding: 2%;
+    background-color: #ffffff; 
+}
+.box {
+    
+    display: flex;
+}
+
+p {
+    color: #777777;
+    display: flex;
+    vertical-align: middle;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    height: 15px;
+    background-color: #666666;
+    padding-top: 3%;
+    text-anchor: middle;
+    text-align: center;
+    font-size: 10px;
+    color: #cccccc;
+    position: sticky;
+    font-display: bottom;
+}
