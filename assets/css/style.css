@@ -57,7 +57,8 @@ a {
 }
 
 img {
-    margin-right: 2%; 
+    margin-right: 2%;
+    display: inline-block;
 }
 
 .wrapper {
@@ -68,13 +69,37 @@ img {
     background-color: #ffffff;
 }
 .box {
-    display: inline-flex;
+    display: block;
 }
 p {
     color: #777777;
     line-height: 200%;
-    display: block;
     margin-block-start: auto;
+}
+.myText {
+    width: 100%;
+    color: inherit;
+}
+#myTextArea {
+    width: 100%;
+    border-color: #cccccc;
+}
+.buttonBox {
+    margin-left: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: inherit;
+    background-color:#4aaaa5;
+    padding-right: 3%;
+    padding-left: 3%;
+    float: left;    
+}
+button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 1%;
 }
 
 footer {
