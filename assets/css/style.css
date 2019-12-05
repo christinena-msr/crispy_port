@@ -11,11 +11,11 @@ body {
 .mainHeader {
     background: #ffffff;
     height: fit-content;
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
 }
 
 .headerBox {
-    margin-left: 13%;
+    margin-left: 18%;
     margin-bottom: auto;
     height: fit-content;
     width: fit-content;
@@ -32,8 +32,9 @@ h1 {
 
 h2 {
     color: #4aaaa5;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
     border-bottom: 2px solid #cccccc;
+    margin-block-start: auto;
 }
 
 .heading {
@@ -41,7 +42,7 @@ h2 {
 }
 
 .linkToPage {
-    margin-right: 13%;
+    margin-right: 18%;
     float: right;
     padding-top: 1%;
     word-spacing: 10px;
@@ -62,7 +63,7 @@ img {
 }
 
 .wrapper {
-    margin: 13%;
+    margin: 18%;
     margin-top: 3%;
     border: 1px solid #cccccc;
     padding: 2%; 
